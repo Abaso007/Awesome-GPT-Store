@@ -30,6 +30,13 @@ print(response.data[0].url)
 
 ---
 
+## Related Projects
+
+- [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — Run these prompts as AI agent skills in Claude Code, Cursor, and Gemini CLI
+- [muapi-cli](https://github.com/SamurAIGPT/muapi-cli) — Run GPT-Image-2 prompts via CLI with MuAPI
+- [ai-headshot-generator](https://github.com/SamurAIGPT/ai-headshot-generator) — Ready-made SaaS using GPT-Image-2 for professional headshots
+- [nano-banana-generator](https://github.com/SamurAIGPT/nano-banana-generator) — Open-source SaaS for Nano Banana image generation
+
 ## Why GPT-Image-2?
 
 GPT-Image-2 is a significant leap over previous versions, offering:
