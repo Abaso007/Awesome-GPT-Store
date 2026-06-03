@@ -92,11 +92,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Why this over Postiz or Buffer?
+## Why this over Buffer or Hootsuite?
 
-- **Simpler to self-host** — single Next.js app vs Postiz's monorepo (NestJS + Temporal + Redis + BullMQ)
 - **Video-first** — built specifically for YouTube and TikTok video publishing workflows
 - **No per-seat pricing** — credits model, no $19–$99/month subscription
+- **Simple to self-host** — single Next.js app, runs with one `npm run dev`
 - **Open source** — MIT license, fork and extend freely
 
 ## Contributing
