@@ -11,7 +11,7 @@ A free, open-source AI social media scheduler built with Next.js. Schedule posts
 
 ## What is this?
 
-A self-hostable alternative to tools like Postiz, Buffer, and Hootsuite — with built-in AI to help you generate captions, images, and post schedules automatically.
+A self-hostable alternative to tools like Buffer, Hootsuite, Later, and Sprout Social — with built-in AI to help you generate captions, images, and post schedules automatically.
 
 ## Features (Coming Soon)
 
