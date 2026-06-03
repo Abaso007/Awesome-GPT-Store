@@ -9,6 +9,13 @@ A free, open-source AI social media scheduler built with Next.js. Schedule posts
 
 ---
 
+## Related Projects
+
+- [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) — Curated GPT-Image-2 prompts for generating social media visuals
+- [Open-AI-UGC](https://github.com/Anil-matcha/Open-AI-UGC) — Generate AI UGC video ads to schedule across your social channels
+- [AI-Influencer-Generator](https://github.com/SamurAIGPT/AI-Influencer-Generator) — Create AI influencer content to post on a schedule
+- [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Free open-source studio for 200+ AI image & video models
+
 ## What is this?
 
 A self-hostable alternative to tools like Buffer, Hootsuite, Later, and Sprout Social — with built-in AI to help you generate captions, images, and post schedules automatically.
