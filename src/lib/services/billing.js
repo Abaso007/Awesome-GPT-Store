@@ -14,8 +14,8 @@ export const BillingService = {
           price_data: {
             currency: "usd",
             product_data: {
-              name: `AI Social Scheduler - ${plan.name}`,
-              description: `Purchase ${plan.credits} credits to publish/schedule social media posts.`,
+              name: `${config.stripe.plans[planId].name}`,
+              description: `Purchase ${plan.credits} credits to perform AI generations.`,
             },
             unit_amount: plan.price,
           },
