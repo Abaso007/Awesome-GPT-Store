@@ -6,6 +6,14 @@
 
 A free, open-source AI social media scheduler built with Next.js. Upload videos, schedule posts, and publish directly to YouTube and TikTok — no subscription required. Self-hostable alternative to Buffer, Hootsuite, Later, and Sprout Social.
 
+<p align="center">
+  <a href="https://github.com/Anil-matcha/awesome-generative-ai-apps">
+    <img src="https://img.shields.io/badge/Part%20of-Awesome%20Generative%20AI%20Apps-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Awesome Generative AI Apps">
+  </a>
+</p>
+
+> 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
 ## Related Projects
 
 - [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) — Curated GPT-Image-2 prompts for generating social media visuals
