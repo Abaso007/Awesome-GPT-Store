@@ -164,6 +164,7 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 
 | Template | Description | Competing With | Demo |
 |---|---|---|---|
+| [awesome-seedance-2.5-api-prompts](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts) · [↗ GitHub](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts) | Curated Seedance 2.5 API guide, prompts, camera controls, and cinematic video generation examples | Guides on fal.ai, Replicate docs | — |
 | [Seedance 2 Generator](./video_generation/seedance-2-generator) · [↗ GitHub](https://github.com/SamurAIGPT/seedance-2-generator) | Text-to-video and multi-image reference video SaaS | Runway ($12–$76/mo), Kling ($10–$36/mo) | [Demo](https://seedance-2-generator.vercel.app/) |
 | [Veo Video Generator](./video_generation/veo4-video-generator) · [↗ GitHub](https://github.com/SamurAIGPT/veo4-video-generator) | Text-to-video and image-to-video with Google Veo | Sora ($20/mo), Runway ($76/mo) | [Demo](https://veo4-video-generator.vercel.app/) |
 | [AI Kissing Video Generator](./video_generation/ai-kissing-video-generator) · [↗ GitHub](https://github.com/SamurAIGPT/ai-kissing-video-generator) | Merge two portraits into a romantic AI video | Reface ($4.99/mo), novelty apps charging $2–5/video | [Demo](https://ai-kissing-video-generator-amber.vercel.app/) |
