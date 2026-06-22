@@ -79,6 +79,8 @@ AI headshot tools charge $29–$49 per pack. Virtual staging tools charge $29 pe
 
 > ⭐ **[Star this repo](https://github.com/Anil-matcha/awesome-generative-ai-apps/stargazers)** to bookmark it — new apps added regularly.
 
+> 🎬 **Using Seedance 2.5?** [awesome-seedance-2.5-api-prompts](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts) — Curated prompt templates, MuAPI reference, camera controls, and cinematic examples for Seedance 2.5 video generation.
+
 > 🍌 **Running Claude Fable 5?** [awesome-claude-fable-5](https://github.com/Anil-matcha/awesome-claude-fable-5) — 60 curated use cases + **20% off** via [MuAPI](https://muapi.ai/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-generative-ai-apps).
 
 ---
