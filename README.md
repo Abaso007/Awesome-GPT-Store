@@ -48,7 +48,7 @@ Each app is a fully working product you can launch under your own name this week
 
 Every app here is a **complete, sellable SaaS product** — not a demo, not a UI kit. Fork one, put your logo on it, and you have a live product that can take payments today.
 
-**You own it entirely.** MIT licensed — no royalties, no revenue share, no attribution required. Your brand, your domain, your income.
+**You own it entirely.** MIT licensed — no royalties, no revenue share. Your brand, your domain, your income.
 
 ### How the money works
 
