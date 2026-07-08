@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-character-studio](https://github.com/SamurAIGPT/ai-character-studio)
-
 # 🎭 AI Character Studio — Open-Source AI Character Creator & Roleplay Chat SaaS (Free Character.ai / Replika Alternative)
 
 > **Create custom AI character portraits and engage in deep roleplay conversations in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with text-to-avatar generation, image-guided refinement, interactive chat personas, and built-in Stripe billing. A free open-source alternative to Character.ai, Replika, Kindroid, and Joyland AI — powered by the MuAPI AI engine.
@@ -16,6 +14,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/df3b847f-4258-45a8-83bf-c220ba01e2e3
 
 ## 🌐 Try the Live Engine
 
@@ -70,7 +70,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing**    | `STRIPE_SECRET_KEY`                  | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `STRIPE_WEBHOOK_SECRET`              | Webhook secret for resolving credit purchases                                                |
-| **AI Generator**      | `MU_API_KEY`                         | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys)      |
+| **AI Generator**      | `MU_API_KEY`                         | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=ai-character-studio)      |
 |                       | `WEBHOOK_URL`                        | Callback URL for receiving slow-running generation events                                    |
 
 ---

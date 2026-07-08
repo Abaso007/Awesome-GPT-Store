@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-logo-studio](https://github.com/SamurAIGPT/ai-logo-studio)
-
 # 🎨 AI Logo Studio — Open-Source AI Logo & Brand Identity Generator SaaS (Free Looka / Brandmark Alternative)
 
 > **Design professional brand logos from text prompts or sketch references in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with text-to-logo and image-to-logo generation, brand identity concepts, and built-in Stripe billing. A free open-source alternative to Looka, Brandmark.io, LogoAI, Wix Logo Maker, and Canva AI — powered by the MuAPI Nano Banana Pro engine.
@@ -16,6 +14,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/92a4749e-7bed-4333-954a-960bbc9d6179
 
 ## 🌐 Try the Live Engine
 
@@ -71,7 +71,7 @@ To successfully deploy and run, populate the following environment variables in 
 | **Stripe Billing**    | `STRIPE_SECRET_KEY`                  | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `STRIPE_WEBHOOK_SECRET`              | Webhook secret for resolving credit purchases                                                |
-| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys)      |
+| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=ai-logo-studio)      |
 |                       | `WEBHOOK_URL`                        | Public domain URL (e.g. `https://your-app.vercel.app`) for async generation webhooks         |
 
 ### 🚀 Launching on Vercel: Step-by-Step

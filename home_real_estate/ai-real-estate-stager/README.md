@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-real-estate-stager](https://github.com/SamurAIGPT/ai-real-estate-stager)
-
 # 🏡 EstateStager AI — Open-Source AI Virtual Home Staging SaaS (Free BoxBrownie & Virtual Staging AI Alternative)
 
 > **Turn empty rooms into furnished showrooms with photorealistic AI staging in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate built for real estate agents, home stagers, and interior designers — replaces $20–$30/photo virtual staging services. A free open-source alternative to BoxBrownie, Virtual Staging AI, ApplyDesign, and roOomy — powered by the MuAPI AI engine.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/5dea1dae-62f2-43fd-9824-3c6e25b15209
 
 ## 🌐 Project Details
 
@@ -94,7 +94,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing** | `STRIPE_SECRET_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook secret for resolving credit purchases |
-| **AI Staging** | `MUAPIAPP_API_KEY` | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys) |
+| **AI Staging** | `MUAPIAPP_API_KEY` | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=ai-real-estate-stager) |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 

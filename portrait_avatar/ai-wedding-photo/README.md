@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-wedding-photo](https://github.com/SamurAIGPT/ai-wedding-photo)
-
 # 👰 AI Wedding Photo — Open-Source AI Wedding Photo Generator SaaS (Free Remini / Facetune Wedding Alternative)
 
 > **Generate dreamy, photorealistic wedding photos from any portrait in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with scene template selection, AI face-swap compositing, and built-in Stripe billing. A free open-source alternative to Remini Wedding, WedReports AI, and Facetune — powered by the MuAPI AI engine.
@@ -20,6 +18,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/90effc98-c8ef-438f-94d9-66aa94ded71b
 
 ## 📸 UI Preview
 
@@ -62,7 +62,7 @@
 | **Stripe** | `STRIPE_SECRET_KEY` | Stripe API Secret Key |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe Publishable Key |
 | | `STRIPE_WEBHOOK_SECRET` | Stripe Webhook Secret (`checkout.session.completed`) |
-| **AI Model** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai/account/api-keys) dashboard |
+| **AI Model** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai/account/api-keys?utm_source=github&utm_medium=readme&utm_campaign=ai-wedding-photo) dashboard |
 
 ---
 

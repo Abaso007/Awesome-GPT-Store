@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-meme-generator](https://github.com/SamurAIGPT/ai-meme-generator)
-
 # 🎭 AI Meme Studio — Open-Source AI Meme & Viral Short Video Generator SaaS
 
 > **Generate viral memes and short AI videos in seconds with Veo 3.1, Gemini Omni, Wan2.7, GPT-Image-2, and Nano Banana 2.** A production-ready, self-hostable Next.js SaaS boilerplate with smart multi-model routing — purpose-built for creators, marketers, social media managers, and brand teams. Powered by the MuAPI AI engine.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/7b60581d-356f-4eb6-9564-7540460b527b
 
 ## 🌐 Project Repository
 
@@ -85,7 +85,7 @@ To successfully deploy and run, populate the following environment variables in 
 | **Stripe Billing**    | `STRIPE_SECRET_KEY`                  | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `STRIPE_WEBHOOK_SECRET`              | Webhook secret for resolving credit purchases                                                |
-| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys)      |
+| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=ai-meme-generator)      |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 

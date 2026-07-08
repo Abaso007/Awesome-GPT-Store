@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-tryon](https://github.com/SamurAIGPT/ai-tryon)
-
 # 👕 TryOn AI — Open-Source AI Virtual Try-On & Outfit Fitting SaaS (Free Botika / Lalaland Alternative)
 
 > **Fit any garment onto any person photo in seconds with photorealistic AI.** A production-ready, self-hostable Next.js SaaS boilerplate built for fashion brands, e-commerce stores, stylists, and DTC apparel lines. Replaces $40–$100/mo paid try-on tools. A free open-source alternative to Botika, Lalaland.ai, ZMO.ai, WearView, and Vue.ai — powered by the MuAPI AI engine.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/d08bd94b-2efd-4529-bd14-c8e97c87f959
 
 ## 🌐 Project Details
 
@@ -91,7 +91,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing** | `STRIPE_SECRET_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook secret for resolving credit purchases |
-| **AI Generation** | `MUAPIAPP_API_KEY` | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys) |
+| **AI Generation** | `MUAPIAPP_API_KEY` | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=ai-tryon) |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 

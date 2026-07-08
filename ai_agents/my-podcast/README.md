@@ -1,11 +1,10 @@
-> 📦 **Original repo:** [SamurAIGPT/my-podcast](https://github.com/SamurAIGPT/my-podcast)
-
 # 🎙️ My Podcast Studio — Open-Source AI Voiceover & Podcast Narration SaaS (Free ElevenLabs / Murf AI Alternative)
 
 > **Generate lifelike AI voiceovers and podcast narrations with advanced speech synthesis in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with fine-grained voice controls (speed, pitch, volume), MiniMax Speech 2.6 engine, and built-in Stripe billing. A free open-source alternative to ElevenLabs, Murf AI, Descript, Play.ht, and Listnr — powered by the MuAPI AI engine.
 
 **Tech stack:** Next.js 14 (App Router) · Prisma · PostgreSQL · NextAuth (Google OAuth) · Stripe · Tailwind CSS · MuAPI · MiniMax Speech 2.6
 **Use cases:** Podcast creators · YouTube voiceovers · Audiobook narration · E-learning content · Video ad voiceovers · News readers · Language learning apps · Accessibility tools
+https://github.com/user-attachments/assets/b3ebb885-56de-4a80-9138-3370e0f10596
 
 ## 🌐 Try the Live Engine
 

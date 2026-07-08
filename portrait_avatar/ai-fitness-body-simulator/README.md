@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-fitness-body-simulator](https://github.com/SamurAIGPT/ai-fitness-body-simulator)
-
 # 🏋️ AI Fitness Body Simulator — Open-Source AI Body Transformation & Physique Simulator SaaS (Free BodyApp / SimScale Alternative)
 
 > **Visualize your fitness transformation goals with photorealistic AI body simulation in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with photo upload, target physique configuration, and high-fidelity AI body transformation — powered by the MuAPI AI engine. A free open-source alternative to BodyApp AI, Evolt 360, and fitness transformation preview tools.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/4ff474a8-319e-4e7a-ae72-e603f83d8957
 
 ## 🌐 Try the Live Engine
 
@@ -73,7 +73,7 @@ To successfully deploy and run, populate the following environment variables in 
 | **Stripe Billing**    | `STRIPE_SECRET_KEY`                  | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `STRIPE_WEBHOOK_SECRET`              | Webhook secret for resolving credit purchases                                                |
-| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys)      |
+| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=ai-fitness-body-simulator)      |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 

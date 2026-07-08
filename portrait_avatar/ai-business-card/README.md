@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-business-card](https://github.com/SamurAIGPT/ai-business-card)
-
 # 📇 CardAI Creator — Open-Source AI Digital Business Card Generator with Embedded Visitor Chatbot
 
 > **Design, share, and chat through interactive digital business cards in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with 7 premium templates, AI-styled custom layouts, QR sharing, and a visitor-facing AI chatbot that answers questions about you on your behalf. A free open-source alternative to Popl, HiHello, Linq, and Mobilo — powered by the MuAPI AI engine.
@@ -12,8 +10,9 @@
     <img src="https://img.shields.io/badge/Part%20of-Awesome%20Generative%20AI%20Apps-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Awesome Generative AI Apps">
   </a>
 </p>
-
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/ae731f0a-8f9b-424c-908c-b35a52dd62eb
 
 ## 🌐 Project Details
 
@@ -50,8 +49,7 @@ CardAI Creator is a highly optimized SaaS application designed to help professio
 - Visitors viewing the public `/card/[hash]` page can open a floating chat drawer.
 - Answers questions about your experience, contact info, and website by referencing profile details.
 - Runs a synchronous backend polling script so that visitors get instant, snappy answers.
-
-### 📂 My Cards Dashboard (`/my-cards`)
+### 📂 Dedicated Gallery Page (`/gallery`)
 - A dedicated dashboard where users can see all their saved cards in a clean, visual grid of previews.
 - Quick actions: **Edit** (opens in workspace), **View** (opens public page), **Delete** (with confirmation), **Copy Link**, and **Show/Download QR Code**.
 
@@ -79,7 +77,7 @@ Configure these keys inside your local `.env` or production Vercel dashboard:
 | **Stripe Billing**    | `STRIPE_SECRET_KEY`                  | Obtained from [Stripe API Keys](https://dashboard.stripe.com/apikeys)                        |
 |                       | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Obtained from [Stripe API Keys](https://dashboard.stripe.com/apikeys)                        |
 |                       | `STRIPE_WEBHOOK_SECRET`              | Configured webhook secret to resolve transaction credits                                     |
-| **AI Generator**      | `MUAPIAPP_API_KEY`                   | AI API key from [muapi.ai](https://muapi.ai/)                                                |
+| **AI Generator**      | `MUAPIAPP_API_KEY`                   | AI API key from [muapi.ai](https://muapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=ai-business-card)                                                |
 
 ---
 

@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-professional-makeup-generator](https://github.com/SamurAIGPT/ai-professional-makeup-generator)
-
 # 💄 AI Professional Makeup Generator — Open-Source Virtual Makeup Try-On SaaS (Free YouCam Makeup / ModiFace Alternative)
 
 > **Try on professional makeup looks virtually before buying or booking in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate built for beauty brands, salons, and DTC apps — replaces $50/mo virtual try-on tools. A free open-source alternative to YouCam Makeup, ModiFace, Perfect Corp, and BeautyPlus — powered by the MuAPI AI engine.
@@ -16,6 +14,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/b5b811ce-0ce8-4ddf-8522-428a4c5d651e
 
 ## 🌐 Project Details
 
@@ -89,7 +89,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing** | `STRIPE_SECRET_KEY` | Get from Stripe Dashboard |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from Stripe Dashboard |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook secret for resolving credit purchases |
-| **AI Generation** | `MUAPIAPP_API_KEY` | Create an account and get key from [muapi.ai](https://muapi.ai) |
+| **AI Generation** | `MUAPIAPP_API_KEY` | Create an account and get key from [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=ai-professional-makeup-generator) |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 

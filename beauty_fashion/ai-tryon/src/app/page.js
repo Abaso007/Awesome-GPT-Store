@@ -192,12 +192,9 @@ export default function StudioPage() {
 
   const pollTryOnResult = async (id) => {
     let completed = false;
-    let attempts = 0;
-    const maxAttempts = 20;
 
-    while (!completed && attempts < maxAttempts) {
+    while (!completed) {
       await new Promise((resolve) => setTimeout(resolve, 2500));
-      attempts++;
 
       try {
         const res = await fetch(`/api/tryons?id=${id}`);
@@ -217,11 +214,6 @@ export default function StudioPage() {
       } catch (err) {
         console.error("Error polling database status:", err);
       }
-    }
-
-    if (!completed) {
-      setGeneratingError("Generation is taking longer than expected. It will complete in the background and show in your gallery.");
-      setGeneratingStatus("error");
     }
   };
 
@@ -244,7 +236,7 @@ export default function StudioPage() {
   };
 
   return (
-    <div className="flex-1 flex flex-col md:flex-row md:overflow-hidden overflow-y-auto bg-zinc-950 text-zinc-100 font-sans">
+    <div className="flex-1 flex flex-col md:flex-row md:overflow-hidden overflow-y-auto bg-bg-page text-zinc-100 font-sans">
       {/* ─── LEFT PANEL: STUDIO OPTIONS ────────────────────────────────────────── */}
       <div className="w-full md:w-[420px] border-r border-zinc-700 bg-zinc-900/60 flex flex-col md:overflow-y-auto overflow-visible flex-shrink-0">
         <div className="p-5 border-b border-zinc-700 flex-shrink-0 bg-zinc-900/80">

@@ -1,11 +1,9 @@
-import { Outfit } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import Navbar from "../components/Navbar";
 
-const outfit = Outfit({
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata = {
   title: "AI Kissing Video Generator - Create Romantic Videos with Veo 3.1, Wan 2.7 & Gemini",
@@ -20,7 +18,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className="h-full w-full" data-theme={theme}>
-      <body className={`${outfit.className} h-full w-full flex flex-col antialiased bg-bg-page text-primary-text`}>
+      <body className={`${inter.className} h-full w-full flex flex-col antialiased bg-bg-page text-primary-text`}>
         <Providers>
           <Navbar />
           <div className="flex-1 flex flex-col overflow-hidden">

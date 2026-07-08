@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-kissing-video-generator](https://github.com/SamurAIGPT/ai-kissing-video-generator)
-
 # 💖 AI Kissing Video Generator — Open-Source AI Romance Video SaaS (Powered by Veo 3, Wan 2.7 & Gemini Omni)
 
 > **Merge two portrait photos into a photorealistic romantic kissing video in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with multi-model AI video generation (Veo 3, Wan 2.7, Gemini Omni, Grok), webhook-backed async delivery, a personal video gallery, and built-in Stripe billing. Powered by the MuAPI AI engine.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/93c94cf1-4be0-4e49-88d2-89969c9b8f32
 
 ## 🌐 Project Details
 
@@ -98,7 +98,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing** | `STRIPE_SECRET_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook secret for resolving credit purchases |
-| **AI Generation** | `MU_API_KEY` | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys) |
+| **AI Generation** | `MU_API_KEY` | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=ai-kissing-video-generator) |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 

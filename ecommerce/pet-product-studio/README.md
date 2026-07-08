@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/pet-product-studio](https://github.com/SamurAIGPT/pet-product-studio)
-
 # 🐶 Pet Product Studio — Open-Source AI Pet Brand Ad Generator (Free Pebblely Alternative for Pet Brands)
 
 > **Generate photorealistic ads placing your pet products alongside dogs, cats, and other pets in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate purpose-built for pet brands, dropshippers, and DTC pet e-commerce. A free open-source alternative to Pebblely, Booth.ai, and Flair.ai — powered by the MuAPI AI engine.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/75cbc455-024c-493a-9f14-7df4747d4c79
 
 ## 🌐 Project Repository
 
@@ -64,7 +64,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing**    | `STRIPE_SECRET_KEY`                  | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `STRIPE_WEBHOOK_SECRET`              | Webhook secret for resolving credit purchases                                                |
-| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys)      |
+| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=pet-product-studio)      |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 

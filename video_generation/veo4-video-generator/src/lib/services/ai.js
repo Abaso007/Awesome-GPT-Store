@@ -182,6 +182,51 @@ export const AIService = {
       throw new Error(creation.error || "Generation failed.");
     }
 
+    // Direct upstream query as fallback for delayed webhooks
+    const apiKey = config.ai?.veo31?.apiKey;
+    if (apiKey) {
+      try {
+        const upstreamRes = await fetch(`https://api.muapi.ai/api/v1/predictions/${requestId}/result`, {
+          headers: {
+            "x-api-key": apiKey
+          }
+        });
+        if (upstreamRes.ok) {
+          const upstreamData = await upstreamRes.json();
+          const checkStatus = upstreamData.status || upstreamData.state;
+          if (checkStatus === "completed" || checkStatus === "succeeded") {
+            const outputs = upstreamData.outputs || [];
+            const videoUrl = outputs[0] || (typeof upstreamData.output === 'string' ? upstreamData.output : upstreamData.output?.urls?.get);
+            if (videoUrl) {
+              await creationModel.update({
+                where: { id: creation.id },
+                data: {
+                  status: "completed",
+                  videoFiles: [videoUrl]
+                }
+              });
+              return { status: "completed", videoUrl };
+            }
+          } else if (checkStatus === "failed") {
+            const errStr = upstreamData.error || "Generation failed";
+            await creationModel.update({
+              where: { id: creation.id },
+              data: {
+                status: "failed",
+                error: errStr
+              }
+            });
+            // Refund credits
+            const cost = this.getCreditCost(creation.mode, creation.model || "lite", creation.resolution || "720p");
+            await UserService.addCredits(userId, cost);
+            throw new Error(errStr);
+          }
+        }
+      } catch (e) {
+        console.error("Direct upstream check failed:", e);
+      }
+    }
+
     return { status: "processing" };
   }
 };
