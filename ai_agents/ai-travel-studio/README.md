@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-travel-studio](https://github.com/SamurAIGPT/ai-travel-studio)
-
 # 🌍 AI Travel Studio — Open-Source AI Travel Photo Generator SaaS (Free Teleport AI / Picsart Travel Alternative)
 
 > **Place yourself into iconic travel destinations worldwide with photorealistic AI in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with destination scene presets (Paris, Kyoto, Maldives, Colosseum), webhook-backed async delivery, and built-in Stripe billing. A free open-source alternative to Teleport AI and Picsart — powered by the MuAPI AI engine.
@@ -16,6 +14,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/9fa1782c-2c27-4797-8c53-49a01d5d8cdf
 
 ## 🌐 Project Details
 
@@ -95,7 +95,7 @@ FutureTravel AI is a premium SaaS web application that places users in gorgeous 
 | **Stripe** | `STRIPE_SECRET_KEY` | Stripe Secret Key |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe Publishable Key |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook signing secret |
-| **AI** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai) |
+| **AI** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=ai-travel-studio) |
 
 ### 🚀 Production Deployment Setup
 

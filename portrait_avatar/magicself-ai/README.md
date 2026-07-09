@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/magicself-ai](https://github.com/SamurAIGPT/magicself-ai)
-
 # ✨ MagicSelf AI — Open-Source AI Selfie-to-Artwork Generator SaaS (Free Lensa AI / Prisma Alternative)
 
 > **Transform any selfie into oil paintings, watercolors, anime, digital art, and more in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with multiple art style presets, webhook-backed async delivery, and built-in Stripe billing. A free open-source alternative to Lensa AI, Prisma, ToonMe, and Meitu — powered by the MuAPI AI engine.
@@ -16,6 +14,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/ea5b3cbe-c7f4-467e-8ee2-18629e833ba4
 
 ## 🌐 Project Details
 
@@ -79,7 +79,7 @@ MagicSelf AI is a premium SaaS web application that transforms user portraits an
 | **Stripe** | `STRIPE_SECRET_KEY` | Stripe Secret Key |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe Publishable Key |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook signing secret |
-| **AI** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai) |
+| **AI** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=magicself-ai) |
 
 ### 🚀 Production Deployment Setup
 

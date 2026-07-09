@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/amazon-product-studio](https://github.com/SamurAIGPT/amazon-product-studio)
-
 # 📦 Amazon Product Studio — Open-Source AI Product Photography & Ad Creative SaaS (Free Flair AI / Booth AI Alternative)
 
 > **Generate studio-quality product photos and ad creatives from reference images in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with multi-image upload (up to 14 references), preset templates, aspect ratio control, webhook-backed async delivery, and built-in Stripe billing. A free open-source alternative to Flair AI, Booth AI, Photoroom, and Pebblely — powered by the MuAPI AI engine.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/45866dbe-d5e5-4e94-8f76-386b5aab2f22
 
 ## 🌐 Project Details
 
@@ -93,7 +93,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing** | `STRIPE_SECRET_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook secret for resolving credit purchases |
-| **AI Generation** | `MU_API_KEY` | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys) |
+| **AI Generation** | `MU_API_KEY` | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=amazon-product-studio) |
 | **Theme** | `NEXT_PUBLIC_THEME` | Theme selection (default `dark`) |
 
 ### 🚀 Launching on Vercel: Step-by-Step

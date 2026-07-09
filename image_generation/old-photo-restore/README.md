@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/old-photo-restore](https://github.com/SamurAIGPT/old-photo-restore)
-
 # 📷 Old Photo Restore — Open-Source AI Photo Restoration SaaS (Free Remini Alternative)
 
 > **Restore, colorize, and repair damaged vintage photographs in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate that turns scratched, faded, black-and-white, or torn family archives into high-definition digital masterpieces. A free open-source alternative to Remini, MyHeritage Deep Nostalgia, and Photomyne — powered by the MuAPI AI engine.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/8a60a9f9-649f-4452-ba4e-cd71adf7a774
 
 ## 🌐 Project Repository
 

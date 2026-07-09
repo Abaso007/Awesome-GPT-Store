@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/resale-photo-enhancer](https://github.com/SamurAIGPT/resale-photo-enhancer)
-
 # 🛒 Resale Photo Enhancer — Open-Source AI Product Photo Studio for Online Resellers (Free Photoroom Alternative)
 
 > **Turn snapshot reseller photos into professional listing imagery in one click.** A production-ready, self-hostable Next.js SaaS boilerplate that swaps cluttered backgrounds for clean studio-grade scenes — purpose-built for sellers on eBay, Poshmark, Depop, Vinted, Mercari, Etsy, and Facebook Marketplace. A free open-source alternative to Photoroom, Pixelcut, and ZMO.ai — powered by the MuAPI AI engine.
@@ -14,6 +12,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/5562b09c-e872-486a-b049-5b59dcb8dac8
 
 ## 🌐 Project Repository
 
@@ -64,7 +64,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing**    | `STRIPE_SECRET_KEY`                  | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys)                            |
 |                       | `STRIPE_WEBHOOK_SECRET`              | Webhook secret for resolving credit purchases                                                |
-| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys)      |
+| **AI Generator**      | `MUAPIAPP_API_KEY`                   | Create an account and get key from [muapi.ai/access-keys](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=resale-photo-enhancer)      |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 

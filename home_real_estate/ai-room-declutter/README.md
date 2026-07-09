@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-room-declutter](https://github.com/SamurAIGPT/ai-room-declutter)
-
 # 🏠 AI Room Declutter — Open-Source AI Room Declutter & Interior Redesign SaaS (Free RoomGPT / Reimagine Home Alternative)
 
 > **Instantly transform messy rooms into photorealistic clean interiors with AI.** A production-ready, self-hostable Next.js SaaS boilerplate with design style presets, webhook-backed async generation, and built-in Stripe billing. A free open-source alternative to RoomGPT, Reimagine Home, AI Interior, and Decor Matters — powered by the MuAPI AI engine.
@@ -16,6 +14,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/a834419c-70d9-49c6-9645-2854ef25b0ff
 
 ## 🌐 Project Details
 
@@ -95,7 +95,7 @@ FutureRoom AI is a premium SaaS web application that tidies messy interiors usin
 | **Stripe** | `STRIPE_SECRET_KEY` | Stripe Secret Key |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe Publishable Key |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook signing secret |
-| **AI** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai) |
+| **AI** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=ai-room-declutter) |
 
 ### 🚀 Production Deployment Setup
 

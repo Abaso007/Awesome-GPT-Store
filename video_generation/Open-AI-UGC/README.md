@@ -1,6 +1,7 @@
-> 📦 **Original repo:** [Anil-matcha/Open-AI-UGC](https://github.com/Anil-matcha/Open-AI-UGC)
-
 # Open AI UGC — Free Open-Source Alternative to Arcads & MakeUGC
+
+[![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://muapi.ai?utm_source=github&utm_medium=badge&utm_campaign=open-ai-ugc)
+
 
 > **The free, open-source alternative to Arcads and MakeUGC.** Generate AI UGC video ads with realistic AI actors using 4+ state-of-the-art video models — no per-seat pricing, no locked actor library, no vendor watermark.
 
@@ -26,6 +27,8 @@
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
 
+https://github.com/user-attachments/assets/eb7d4b61-af97-4a06-9afb-bd56a99de8fb
+
 ## 🌐 Live Demo & Deploy
 
 **Live Demo:** [open-ai-ugc.vercel.app](https://open-ai-ugc.vercel.app/)
@@ -37,7 +40,7 @@
 
 ---
 
-Open AI UGC is a free, open-source AI UGC video ad studio that brings the Arcads / MakeUGC workflow to everyone — without the $110–$500+/month per-seat subscription. Paste a script, upload a reference face or product image, pick a model, and ship a scroll-stopping 9:16 vertical ad for TikTok, Reels, or Shorts in under a minute. Powered by [Muapi.ai](https://muapi.ai), it supports image-to-video and text-to-video generation across models like **Veo 3.1**, **Seedance 2**, **Grok Video**, and **Happy Horse 1** — all from a sleek, modern interface you can self-host, rebrand, and customize end to end.
+Open AI UGC is a free, open-source AI UGC video ad studio that brings the Arcads / MakeUGC workflow to everyone — without the $110–$500+/month per-seat subscription. Paste a script, upload a reference face or product image, pick a model, and ship a scroll-stopping 9:16 vertical ad for TikTok, Reels, or Shorts in under a minute. Powered by [Muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc), it supports image-to-video and text-to-video generation across models like **Veo 3.1**, **Seedance 2**, **Grok Video**, and **Happy Horse 1** — all from a sleek, modern interface you can self-host, rebrand, and customize end to end.
 
 **Why Open AI UGC instead of Arcads or MakeUGC?**
 - **Free & open-source** — no $110–$500/mo subscription, no vendor lock-in
@@ -110,7 +113,7 @@ Plans, prices, and features are defined in one file (`src/app/pricing/page.js`) 
 
 - [Node.js](https://nodejs.org/) (v18+)
 - A PostgreSQL database (free tiers on [Neon](https://neon.tech), [Supabase](https://supabase.com), or [Railway](https://railway.app))
-- A [Muapi.ai access key](https://muapi.ai/access-keys) — copy the generated key value, not the label
+- A [Muapi.ai access key](https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc) — copy the generated key value, not the label
 - A [Google OAuth client](https://console.cloud.google.com/apis/credentials) (Client ID + Secret)
 - A [Stripe account](https://stripe.com) (test mode is fine to start)
 
@@ -151,7 +154,7 @@ NEXTAUTH_SECRET="..."
 GOOGLE_CLIENT_ID="..."
 GOOGLE_CLIENT_SECRET="..."
 
-# MUAPI — https://muapi.ai/access-keys
+# MUAPI — https://muapi.ai/access-keys?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc
 UGC_API_KEY="..."
 WEBHOOK_URL="https://your-deployment-url.com"  # MUAPI calls this when a render finishes
 
@@ -221,7 +224,7 @@ Open-AI-UGC/
 
 ## 🔌 API Integration
 
-Open AI UGC communicates with [Muapi.ai](https://muapi.ai) using a webhook pattern:
+Open AI UGC communicates with [Muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc) using a webhook pattern:
 
 1. **Submit** — `POST /api/v1/{model-endpoint}` with `prompt`, `images_list`, model parameters, and `webhook_url`
 2. **Wait** — MUAPI runs the render asynchronously (8s–2min depending on model and duration)
@@ -264,7 +267,7 @@ MIT — fork it, rebrand it, ship it.
 
 ## 🙏 Credits
 
-Built with [Muapi.ai](https://muapi.ai) — the unified API for AI image and video generation models.
+Built with [Muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-ai-ugc) — the unified API for AI image and video generation models.
 
 ---
 

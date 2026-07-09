@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [Anil-matcha/open-character-ai](https://github.com/Anil-matcha/open-character-ai)
-
 # 🤖 Open Character AI — Interactive Persona Chat Portal & Companion SaaS
 
 > **An interactive, high-fidelity AI companion portal where users explore preset personas, forge custom AI characters, and fine-tune LLM parameters per chat.** Built with Next.js (App Router), this application is a self-contained SaaS boilerplate featuring user authentication, credit billing, and a beautiful chat interface powered by the MuAPI engine.
@@ -11,6 +9,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/b6e252c0-6e06-4333-bc53-5d6856811868
 
 ## 🌐 Project Details
 
@@ -90,7 +90,7 @@ To successfully deploy and run, populate the following environment variables in 
 | **Stripe Billing** | `STRIPE_SECRET_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from [Stripe Dashboard](https://dashboard.stripe.com/apikeys) |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook secret for resolving credit purchases |
-| **AI Generator / LLM** | `MU_API_KEY` | API key from [muapi.ai](https://muapi.ai) (for model routing/API calls) |
+| **AI Generator / LLM** | `MU_API_KEY` | API key from [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=open-character-ai) (for model routing/API calls) |
 | | `WEBHOOK_URL` | Webhook URL endpoint for async events |
 | **UI Configuration** | `NEXT_PUBLIC_THEME` | Dynamic UI color theme accent: Choose from `indigo`, `emerald`, `rose`, `amber`, `violet` |
 

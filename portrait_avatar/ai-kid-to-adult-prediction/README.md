@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-kid-to-adult-prediction](https://github.com/SamurAIGPT/ai-kid-to-adult-prediction)
-
 # 👶 AI Kid to Adult Prediction — Open-Source AI Age Progression & Growth Simulator SaaS (Free FaceApp / AgePro Alternative)
 
 > **Predict photorealistic how a child will look as an adult with AI age progression.** A production-ready, self-hostable Next.js SaaS boilerplate with target age group selection, webhook-backed async delivery, and built-in Stripe billing. A free open-source alternative to FaceApp, AgePro, and Aging Booth — powered by the MuAPI AI engine.
@@ -16,6 +14,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/d413c104-0bc3-4c2d-8909-041ea407244c
 
 ## 🌐 Project Details
 
@@ -87,7 +87,7 @@ FutureSelf AI is a premium SaaS web application that predicts a child's future a
 | **Stripe** | `STRIPE_SECRET_KEY` | Stripe Secret Key |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe Publishable Key |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook signing secret |
-| **AI** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai) |
+| **AI** | `MUAPIAPP_API_KEY` | Get from [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=ai-kid-to-adult-prediction) |
 
 ### 🚀 Production Deployment Setup
 

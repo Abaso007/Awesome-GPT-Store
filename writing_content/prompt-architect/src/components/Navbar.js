@@ -23,6 +23,8 @@ export default function Navbar() {
     // Prefetch common routes
   }, []);
 
+  if (pathname === "/chat") return null;
+
   const appMatch = pathname ? pathname.match(/^\/app\/([^\/]+)/) : null;
   const currentAppId = appMatch ? appMatch[1] : null;
 
@@ -33,7 +35,7 @@ export default function Navbar() {
         { name: "Pricing", path: `/app/${currentAppId}/pricing` },
       ]
     : [
-        { name: "Workspace", path: "/" },
+        { name: "Workspace", path: "/chat" },
         { name: "Gallery", path: "/gallery" },
         { name: "Pricing", path: "/pricing" },
       ];

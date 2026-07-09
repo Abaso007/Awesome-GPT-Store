@@ -1,5 +1,3 @@
-> 📦 **Original repo:** [SamurAIGPT/ai-tattoo-try-on](https://github.com/SamurAIGPT/ai-tattoo-try-on)
-
 # 🖋️ AI Tattoo Try-On — Open-Source Virtual Tattoo Simulator & Placement Try-On SaaS (Free Ink Hunter / Tattoosmart Alternative)
 
 > **Preview any tattoo design on your body virtually before getting inked.** A production-ready, self-hostable Next.js SaaS boilerplate built for tattoo studios, artists, fashion brands, and DTC apps. A free open-source alternative to Ink Hunter, Tattoosmart, and InkAR — powered by the MuAPI AI engine.
@@ -16,6 +14,8 @@
 </p>
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+
+https://github.com/user-attachments/assets/9b347782-e043-4111-91c3-4a7c74c76875
 
 ## 🌐 Project Details
 
@@ -90,7 +90,7 @@ To successfully deploy and run, you must populate the following environment vari
 | **Stripe Billing** | `STRIPE_SECRET_KEY` | Get from Stripe Dashboard |
 | | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Get from Stripe Dashboard |
 | | `STRIPE_WEBHOOK_SECRET` | Webhook secret for resolving credit purchases |
-| **AI Generation** | `MUAPIAPP_API_KEY` | Create an account and get key from [muapi.ai](https://muapi.ai) |
+| **AI Generation** | `MUAPIAPP_API_KEY` | Create an account and get key from [muapi.ai](https://muapi.ai?utm_source=github&utm_medium=readme&utm_campaign=ai-tattoo-try-on) |
 
 ### 🚀 Launching on Vercel: Step-by-Step
 
