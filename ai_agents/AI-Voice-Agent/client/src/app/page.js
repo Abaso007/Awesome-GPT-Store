@@ -385,7 +385,6 @@ export default function Home() {
                 )}
               </div>
             )}
-          </section>
 
           {/* Action Control Buttons */}
           <div className="w-full flex flex-col gap-4">
