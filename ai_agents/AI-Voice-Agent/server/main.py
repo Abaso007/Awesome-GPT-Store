@@ -287,7 +287,7 @@ async def websocket_endpoint(websocket: WebSocket):
             )
             
             # Spawn processing task
-            asyncio.create_task(process_ai_response(utterance))
+            asyncio.run_coroutine_threadsafe(process_ai_response(utterance), loop)
 
     def on_metadata(self, metadata, **kwargs):
         print(f"Deepgram Metadata: {metadata}")
@@ -319,7 +319,7 @@ async def websocket_endpoint(websocket: WebSocket):
             )
             
             # Spawn processing task
-            asyncio.create_task(process_ai_response(utterance))
+            asyncio.run_coroutine_threadsafe(process_ai_response(utterance), loop)
 
     def on_close(self, close, **kwargs):
         print("Deepgram Connection Closed")
