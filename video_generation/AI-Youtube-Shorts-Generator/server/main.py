@@ -35,6 +35,7 @@ class GenerateRequest(BaseModel):
     mode: str = "api"  # api or local
     num_clips: int = 3
     aspect_ratio: str = "9:16"
+    language: str = None
 
 async def run_shorts_pipeline(job_id: str, request: GenerateRequest):
     jobs[job_id]["status"] = "processing"
@@ -52,6 +53,8 @@ async def run_shorts_pipeline(job_id: str, request: GenerateRequest):
         "--aspect-ratio", request.aspect_ratio,
         "--output-json", output_json_path
     ]
+    if request.language and request.language.strip() != "" and request.language.strip() != "auto":
+        cmd.extend(["--language", request.language.strip()])
     
     jobs[job_id]["logs"].append(f"Running command: {' '.join(cmd)}")
     

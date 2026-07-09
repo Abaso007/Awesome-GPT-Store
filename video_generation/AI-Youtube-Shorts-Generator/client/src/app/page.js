@@ -7,6 +7,7 @@ export default function Home() {
   const [mode, setMode] = useState("api"); // api or local
   const [numClips, setNumClips] = useState(3);
   const [aspectRatio, setAspectRatio] = useState("9:16");
+  const [language, setLanguage] = useState("auto");
   const [jobId, setJobId] = useState(null);
   const [jobStatus, setJobStatus] = useState("idle"); // idle, processing, completed, failed
   const [logs, setLogs] = useState([]);
@@ -50,6 +51,7 @@ export default function Home() {
           mode,
           num_clips: parseInt(numClips),
           aspect_ratio: aspectRatio,
+          language,
         }),
       });
 
@@ -170,7 +172,7 @@ export default function Home() {
               </div>
 
               {/* Advanced Settings Row */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 {/* Mode Selector */}
                 <div className="space-y-2">
                   <label className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">Processing Mode</label>
@@ -195,6 +197,24 @@ export default function Home() {
                     <option value="9:16">9:16 (Vertical)</option>
                     <option value="1:1">1:1 (Square)</option>
                     <option value="16:9">16:9 (Landscape)</option>
+                  </select>
+                </div>
+
+                {/* Language Selector */}
+                <div className="space-y-2">
+                  <label className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">Language</label>
+                  <select
+                    value={language}
+                    onChange={(e) => setLanguage(e.target.value)}
+                    className="w-full bg-zinc-950/80 border border-zinc-800 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 rounded-xl py-2.5 px-3 text-sm text-zinc-200 outline-none transition-all"
+                  >
+                    <option value="auto">Auto-Detect</option>
+                    <option value="en">English (en)</option>
+                    <option value="es">Spanish (es)</option>
+                    <option value="fr">French (fr)</option>
+                    <option value="de">German (de)</option>
+                    <option value="ru">Russian (ru)</option>
+                    <option value="zh">Chinese (zh)</option>
                   </select>
                 </div>
 
