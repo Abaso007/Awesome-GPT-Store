@@ -8,6 +8,7 @@ export default function Home() {
   const [messages, setMessages] = useState([]);
   const [interimText, setInterimText] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
+  const [summary, setSummary] = useState(null);
   
   const socketRef = useRef(null);
   const mediaRecorderRef = useRef(null);
@@ -79,6 +80,7 @@ export default function Home() {
     setCallState("connecting");
     setMessages([]);
     setInterimText("");
+    setSummary(null);
 
     // Create websocket connection to FastAPI backend
     const socket = new WebSocket("ws://localhost:8000/api/listen");
@@ -128,6 +130,10 @@ export default function Home() {
         const data = JSON.parse(event.data);
         
         switch (data.type) {
+          case "summary":
+            setSummary(data.value);
+            disconnectCall();
+            break;
           case "status":
             if (data.value === "connected") {
               setCallState("listening");
@@ -190,6 +196,15 @@ export default function Home() {
 
     setCallState("disconnected");
     setInterimText("");
+  };
+
+  const endCallWithSummary = () => {
+    if (socketRef.current && socketRef.current.readyState === WebSocket.OPEN) {
+      socketRef.current.send(JSON.stringify({ type: "end-call" }));
+      setCallState("connecting"); // Show connecting spinner while generating summary
+    } else {
+      disconnectCall();
+    }
   };
 
   const toggleMute = () => {
@@ -314,7 +329,63 @@ export default function Home() {
                 )}
               </div>
             </div>
-          </div>
+            </div>
+            
+            {summary && (
+              <div className="w-full mt-6 bg-zinc-950/60 border border-zinc-800 rounded-2xl p-5 space-y-4 text-left z-20">
+                <h3 className="text-xs font-bold text-zinc-200 uppercase tracking-widest border-b border-zinc-800 pb-2 flex items-center justify-between">
+                  <span>Call Summary</span>
+                  <span className="text-[9px] bg-emerald-500/15 text-emerald-400 py-0.5 px-2 rounded-full border border-emerald-500/20">Archived</span>
+                </h3>
+                
+                {summary.reservation?.reserved ? (
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2 text-xs font-semibold text-emerald-400">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                      Table Reserved
+                    </div>
+                    <p className="text-xs text-zinc-400 pl-3.5">
+                      Date & Time: <span className="text-zinc-200">{summary.reservation.date_time || "Not specified"}</span>
+                    </p>
+                    <p className="text-xs text-zinc-400 pl-3.5">
+                      Guests: <span className="text-zinc-200">{summary.reservation.guests || "Not specified"}</span>
+                    </p>
+                  </div>
+                ) : (
+                  <p className="text-[11px] text-zinc-500 italic pl-1">• No table reservation requested</p>
+                )}
+
+                {summary.order?.ordered ? (
+                  <div className="space-y-2 border-t border-zinc-800/60 pt-3">
+                    <div className="flex items-center gap-2 text-xs font-semibold text-purple-400">
+                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500" />
+                      Food Order Placed
+                    </div>
+                    <div className="pl-3.5 space-y-1">
+                      {summary.order.items?.map((item, idx) => (
+                        <div key={idx} className="flex justify-between text-xs text-zinc-300">
+                          <span>{item.name} (x{item.quantity})</span>
+                          <span>${(item.price * item.quantity).toFixed(2)}</span>
+                        </div>
+                      ))}
+                      <div className="flex justify-between text-xs font-bold text-zinc-200 border-t border-zinc-800/40 pt-1 mt-1">
+                        <span>Total order value</span>
+                        <span>${summary.order.total_price?.toFixed(2) || "0.00"}</span>
+                      </div>
+                    </div>
+                    <p className="text-xs text-zinc-400 pl-3.5">
+                      Address: <span className="text-zinc-200">{summary.order.address || "Not specified"}</span>
+                    </p>
+                    <p className="text-xs text-zinc-400 pl-3.5">
+                      Delivery: <span className="text-zinc-200">{summary.order.delivery_time || "30-45 mins"}</span>
+                    </p>
+                  </div>
+                ) : (
+                  <p className="text-[11px] text-zinc-500 italic border-t border-zinc-800/60 pt-3 pl-1">• No food order placed</p>
+                )}
+              </div>
+            )}
+          </section>
 
           {/* Action Control Buttons */}
           <div className="w-full flex flex-col gap-4">
@@ -337,7 +408,7 @@ export default function Home() {
                 </button>
               ) : (
                 <button
-                  onClick={disconnectCall}
+                  onClick={endCallWithSummary}
                   className="flex-1 py-3 px-4 bg-red-500 hover:bg-red-600 active:bg-red-700 text-zinc-50 font-bold rounded-xl transition-all duration-200 flex justify-center items-center gap-2 shadow-lg shadow-red-500/10 cursor-pointer"
                 >
                   <svg className="w-5 h-5 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">

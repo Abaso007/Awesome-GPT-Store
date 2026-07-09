@@ -67,6 +67,63 @@ Conversational Style: Your communication style should be proactive and lead the 
 - [Reply with emotions]: You have human-like emotions, attitudes, and dispositions. When appropriate: use tone and style to create more engaging and personalized responses; incorporate humor or wit; get emotional or empathetic; apply elements of surprise or suspense to keep the user engaged. Don't be a pushover.
 - [Be proactive] Lead the conversation and do not be passive. Most times, engage users by ending with a question or suggested next step."""
 
+async def extract_conversation_summary(history):
+    if not history:
+        return {
+            "reservation": {"reserved": False, "date_time": None, "guests": None},
+            "order": {"ordered": False, "items": [], "total_price": None, "address": None, "delivery_time": None}
+        }
+    
+    formatted_conversation = ""
+    for msg in history:
+        role = "User" if msg["role"] == "user" else "James (Receptionist)"
+        formatted_conversation += f"{role}: {msg['content']}\n"
+        
+    prompt = f"""Analyze the following restaurant receptionist conversation history and extract any table reservation details and food order details.
+
+Respond ONLY with a JSON object in this exact format:
+{{
+  "reservation": {{
+    "reserved": true/false,
+    "date_time": "string or null",
+    "guests": number or null
+  }},
+  "order": {{
+    "ordered": true/false,
+    "items": [
+      {{"name": "string", "quantity": number, "price": number}}
+    ],
+    "total_price": number or null,
+    "address": "string or null",
+    "delivery_time": "string or null"
+  }}
+}}
+
+Conversation:
+{formatted_conversation}"""
+
+    try:
+        loop = asyncio.get_event_loop()
+        chat_completion = await loop.run_in_executor(
+            None,
+            lambda: client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a structured data extractor. You return only valid JSON and nothing else."},
+                    {"role": "user", "content": prompt}
+                ],
+                response_format={"type": "json_object"}
+            )
+        )
+        raw_json = chat_completion.choices[0].message.content.strip()
+        return json.loads(raw_json)
+    except Exception as e:
+        print(f"Error in extract_conversation_summary: {e}")
+        return {
+            "reservation": {"reserved": False, "date_time": None, "guests": None},
+            "order": {"ordered": False, "items": [], "total_price": None, "address": None, "delivery_time": None}
+        }
+
 app = FastAPI()
 
 # Setup CORS for Frontend
@@ -133,6 +190,63 @@ async def websocket_endpoint(websocket: WebSocket):
             {"type": "text", "data": {"type": "status", "value": "connected"}}
         )
 
+    # OpenAI & TTS processing helper
+    async def process_ai_response(text: str):
+        nonlocal agent_speaking
+        try:
+            agent_speaking = True
+            conversation_memory.append({"role": "user", "content": text})
+            messages = [{"role": "system", "content": prompt}] + conversation_memory
+            
+            # Call OpenAI in background executor (blocking call)
+            chat_completion = await loop.run_in_executor(
+                None,
+                lambda: client.chat.completions.create(
+                    model="gpt-3.5-turbo",
+                    messages=messages
+                )
+            )
+            
+            processed_text = chat_completion.choices[0].message.content.strip()
+            print(f"AI Response: {processed_text}")
+            conversation_memory.append({"role": "assistant", "content": processed_text})
+            
+            # Send final assistant text response to client
+            loop.call_soon_threadsafe(
+                outbound_queue.put_nowait,
+                {"type": "text", "data": {"type": "agent-response", "text": processed_text}}
+            )
+            
+            # Synthesize audio via Deepgram TTS in background executor (blocking call)
+            audio_data = await loop.run_in_executor(
+                None,
+                lambda: synthesize_audio(processed_text)
+            )
+            
+            # Send state = speaking
+            loop.call_soon_threadsafe(
+                outbound_queue.put_nowait,
+                {"type": "text", "data": {"type": "state", "value": "speaking"}}
+            )
+            
+            # Send raw audio bytes to client
+            loop.call_soon_threadsafe(
+                outbound_queue.put_nowait,
+                {"type": "audio", "data": audio_data}
+            )
+            
+        except Exception as e:
+            print(f"Error in process_ai_response: {e}")
+            agent_speaking = False
+            loop.call_soon_threadsafe(
+                outbound_queue.put_nowait,
+                {"type": "text", "data": {"type": "error", "message": f"AI Error: {str(e)}"}}
+            )
+            loop.call_soon_threadsafe(
+                outbound_queue.put_nowait,
+                {"type": "text", "data": {"type": "state", "value": "listening"}}
+            )
+
     def on_message(self, result, **kwargs):
         nonlocal is_finals, agent_speaking
         if agent_speaking:
@@ -172,65 +286,8 @@ async def websocket_endpoint(websocket: WebSocket):
                 {"type": "text", "data": {"type": "state", "value": "thinking"}}
             )
             
-            # OpenAI & TTS processing
-            async def process_ai_response():
-                nonlocal agent_speaking
-                try:
-                    agent_speaking = True
-                    conversation_memory.append({"role": "user", "content": utterance})
-                    messages = [{"role": "system", "content": prompt}] + conversation_memory
-                    
-                    # Call OpenAI in background executor (blocking call)
-                    chat_completion = await loop.run_in_executor(
-                        None,
-                        lambda: client.chat.completions.create(
-                            model="gpt-3.5-turbo",
-                            messages=messages
-                        )
-                    )
-                    
-                    processed_text = chat_completion.choices[0].message.content.strip()
-                    print(f"AI Response: {processed_text}")
-                    conversation_memory.append({"role": "assistant", "content": processed_text})
-                    
-                    # Send final assistant text response to client
-                    loop.call_soon_threadsafe(
-                        outbound_queue.put_nowait,
-                        {"type": "text", "data": {"type": "agent-response", "text": processed_text}}
-                    )
-                    
-                    # Synthesize audio via Deepgram TTS in background executor (blocking call)
-                    audio_data = await loop.run_in_executor(
-                        None,
-                        lambda: synthesize_audio(processed_text)
-                    )
-                    
-                    # Send state = speaking
-                    loop.call_soon_threadsafe(
-                        outbound_queue.put_nowait,
-                        {"type": "text", "data": {"type": "state", "value": "speaking"}}
-                    )
-                    
-                    # Send raw audio bytes to client
-                    loop.call_soon_threadsafe(
-                        outbound_queue.put_nowait,
-                        {"type": "audio", "data": audio_data}
-                    )
-                    
-                except Exception as e:
-                    print(f"Error in process_ai_response: {e}")
-                    agent_speaking = False
-                    loop.call_soon_threadsafe(
-                        outbound_queue.put_nowait,
-                        {"type": "text", "data": {"type": "error", "message": f"AI Error: {str(e)}"}}
-                    )
-                    loop.call_soon_threadsafe(
-                        outbound_queue.put_nowait,
-                        {"type": "text", "data": {"type": "state", "value": "listening"}}
-                    )
-
-            # Spawn the processing task
-            asyncio.create_task(process_ai_response())
+            # Spawn processing task
+            asyncio.create_task(process_ai_response(utterance))
 
     def on_metadata(self, metadata, **kwargs):
         print(f"Deepgram Metadata: {metadata}")
@@ -240,6 +297,29 @@ async def websocket_endpoint(websocket: WebSocket):
 
     def on_utterance_end(self, utterance_end, **kwargs):
         print("Deepgram Utterance End")
+        nonlocal is_finals
+        if len(is_finals) > 0:
+            utterance = " ".join(is_finals).strip()
+            is_finals = []
+            if len(utterance) == 0:
+                return
+
+            print(f"Speech Final (Utterance End Trigger): {utterance}")
+            
+            # Send final transcription of user speech to client
+            loop.call_soon_threadsafe(
+                outbound_queue.put_nowait,
+                {"type": "text", "data": {"type": "user-transcript", "text": utterance}}
+            )
+            
+            # Change state to "thinking"
+            loop.call_soon_threadsafe(
+                outbound_queue.put_nowait,
+                {"type": "text", "data": {"type": "state", "value": "thinking"}}
+            )
+            
+            # Spawn processing task
+            asyncio.create_task(process_ai_response(utterance))
 
     def on_close(self, close, **kwargs):
         print("Deepgram Connection Closed")
@@ -302,6 +382,13 @@ async def websocket_endpoint(websocket: WebSocket):
                     outbound_queue.put_nowait({
                         "type": "text",
                         "data": {"type": "state", "value": "listening"}
+                    })
+                elif payload.get("type") == "end-call":
+                    print("Client requested end-call summary")
+                    summary = await extract_conversation_summary(conversation_memory)
+                    outbound_queue.put_nowait({
+                        "type": "text",
+                        "data": {"type": "summary", "value": summary}
                     })
     except WebSocketDisconnect:
         print("Client disconnected")
