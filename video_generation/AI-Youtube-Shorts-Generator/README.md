@@ -6,6 +6,10 @@
 
 Built for creators, agencies, and developers who don't want to pay $20–$300/month or be capped on minutes processed. Uses GPT-class LLM highlight detection and Whisper transcription to extract the most viral-worthy moments and auto-crop them vertically for TikTok, Reels, and Shorts.
 
+### Demo Video
+
+https://github.com/user-attachments/assets/776eecdb-3bc6-4a99-971b-da5acf244b46
+
 > **Building your own Opus Clip–style SaaS?** Skip the infra and ship on the same APIs that power this repo:
 > - [AI Clipping API](https://muapi.ai/playground/ai-clipping) — end-to-end clip selection + render
 > - [Auto-Crop API](https://muapi.ai/playground/autocrop) — vertical reframing only
