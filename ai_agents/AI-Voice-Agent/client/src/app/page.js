@@ -96,9 +96,6 @@ export default function Home() {
       if (event.data instanceof Blob) {
         console.log("Received audio bytes from backend, size:", event.data.size);
         
-        // Stop capturing audio to prevent echo feedback
-        stopRecording();
-        
         const audioUrl = URL.createObjectURL(event.data);
         const audio = new Audio(audioUrl);
         activeAudioRef.current = audio;
@@ -109,10 +106,6 @@ export default function Home() {
           if (socketRef.current && socketRef.current.readyState === WebSocket.OPEN) {
             socketRef.current.send(JSON.stringify({ type: "audio-done" }));
           }
-          // Resume recording if call is active and not muted
-          if (socketRef.current && !isMuted) {
-            startRecording(socketRef.current);
-          }
         };
 
         audio.play().catch((err) => {
@@ -120,9 +113,6 @@ export default function Home() {
           // Auto fallback: tell the backend we are done even if playback fails
           if (socketRef.current && socketRef.current.readyState === WebSocket.OPEN) {
             socketRef.current.send(JSON.stringify({ type: "audio-done" }));
-          }
-          if (socketRef.current && !isMuted) {
-            startRecording(socketRef.current);
           }
         });
       } else {
