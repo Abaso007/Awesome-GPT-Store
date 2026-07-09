@@ -13,6 +13,10 @@ Self-hosted AI voice agent
 
 Open-source AI agent which can handle voice calls and respond back in real-time. Can be used for many use-cases such as sales calls, customer support etc.
 
+### Demo Video
+
+https://github.com/user-attachments/assets/e0e334d4-bb95-424b-a660-8686b2512b30
+
 ### Youtube Tutorial -> https://youtu.be/77xnx26dyYU
 
 ### Medium Article -> https://medium.com/@anilmatcha/ai-voice-agent-how-to-build-one-in-minutes-a-comprehensive-guide-032a79a1ac1e
