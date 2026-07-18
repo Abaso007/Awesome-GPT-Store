@@ -109,10 +109,11 @@ Or deploy instantly with the **Deploy to Vercel** button in each template's READ
 
 | Template | What it does | Live Demo |
 |---|---|---|
-| [💖 AI Kissing Video Generator](./video_generation/ai-kissing-video-generator) · [↗ GitHub](https://github.com/SamurAIGPT/ai-kissing-video-generator) | Merge two portrait photos into a romantic AI video using Veo 3, Wan 2.7 & Gemini Omni | [Demo](https://ai-kissing-video-generator-amber.vercel.app/) |
-| [🎭 AI Character Studio](./portrait_avatar/ai-character-studio) · [↗ GitHub](https://github.com/SamurAIGPT/ai-character-studio) | Generate custom AI character portraits and chat with them in roleplay | [Demo](https://ai-character-studio-beta.vercel.app/) |
-| [📦 Amazon Product Studio](./ecommerce/amazon-product-studio) · [↗ GitHub](https://github.com/SamurAIGPT/amazon-product-studio) | Generate studio-quality product photos from reference images | [Demo](https://amazon-product-studio.vercel.app/) |
-| [🏠 AI Room Declutter](./home_real_estate/ai-room-declutter) · [↗ GitHub](https://github.com/SamurAIGPT/ai-room-declutter) | Transform messy rooms into photorealistic clean interiors with AI | [Demo](https://ai-room-declutter.vercel.app/) |
+| [🎬 Vox AI Motion Graphics Generator](https://github.com/Anil-matcha/vox-ai-motion-graphics-generator) | New — turn any topic into a Vox-style paper-collage explainer video, end to end | [GitHub](https://github.com/Anil-matcha/vox-ai-motion-graphics-generator) |
+| [🧰 Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | Trending (3.8k★) — multi-modal image/video/audio skills for Claude Code, Cursor & Gemini CLI | [GitHub](https://github.com/SamurAIGPT/Generative-Media-Skills) |
+| [📚 LLM Wiki Agent](https://github.com/SamurAIGPT/llm-wiki-agent) | Trending (3.2k★) — a personal knowledge base that builds and maintains itself | [GitHub](https://github.com/SamurAIGPT/llm-wiki-agent) |
+| [🎥 Text-To-Video AI](https://github.com/SamurAIGPT/Text-To-Video-AI) | Popular (780★) — generate full videos from a single text prompt | [GitHub](https://github.com/SamurAIGPT/Text-To-Video-AI) |
+| [🧑‍🎤 AI Influencer Generator](https://github.com/SamurAIGPT/AI-Influencer-Generator) | Create and customize your own consistent AI influencer | [GitHub](https://github.com/SamurAIGPT/AI-Influencer-Generator) |
 
 ---
 
@@ -138,10 +139,12 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 
 | App | Description | Competing With | Stars |
 |---|---|---|---|
-| [Open Generative AI](./platforms/Open-Generative-AI) · [↗ GitHub](https://github.com/Anil-matcha/Open-Generative-AI) | Open-source AI image & video studio with 200+ models. No content filters. Self-hosted. | Leonardo AI ($60/mo), Krea ($35/mo), OpenArt ($57/mo) | ⭐ 20k+ |
-| [Free AI Social Media Scheduler](./platforms/Free-AI-Social-Media-Scheduler) · [↗ GitHub](https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler) | Self-hostable AI social media scheduler with built-in content generation | Buffer ($18/mo), Hootsuite ($99/mo), Postiz ($42/mo) | ⭐ 420 |
+| [Open Generative AI](./platforms/Open-Generative-AI) · [↗ GitHub](https://github.com/Anil-matcha/Open-Generative-AI) | Open-source AI image & video studio with 200+ models. No content filters. Self-hosted. | Leonardo AI ($60/mo), Krea ($35/mo), OpenArt ($57/mo) | ⭐ 23k+ |
+| [Free AI Social Media Scheduler](./platforms/Free-AI-Social-Media-Scheduler) · [↗ GitHub](https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler) | Self-hostable AI social media scheduler with built-in content generation | Buffer ($18/mo), Hootsuite ($99/mo), Postiz ($42/mo) | ⭐ 453 |
 | [Open AI Design Agent](./platforms/Open-AI-Design-Agent) · [↗ GitHub](https://github.com/Anil-matcha/Open-AI-Design-Agent) | Autonomous multi-step AI design agent for creatives, brand kits, ad creatives | Lovart AI ($30/mo), Galileo AI ($50/mo) | ⭐ 807 |
 | [Open Poe AI](./platforms/Open-Poe-AI) · [↗ GitHub](https://github.com/Anil-matcha/Open-Poe-AI) | Self-hosted multi-model AI chat — GPT, Claude, Gemini, Llama, bring your own keys | Poe AI ($20/mo), ChatGPT Plus ($20/mo) | ⭐ 241 |
+| [Vibe Workflow](https://github.com/SamurAIGPT/Vibe-Workflow) | Node-based AI workflow builder for generative image & video pipelines | Weavy, Krea Nodes, FloraFauna AI | ⭐ 507 |
+| [PixelRelay](https://github.com/SamurAIGPT/pixelrelay) | Self-hosted unified API for generative media — one webhook endpoint across Fal, Replicate, with failover | fal.ai, Replicate, Together | ⭐ 14 |
 
 ---
 
@@ -157,6 +160,9 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [AI Meme Studio](./image_generation/ai-meme-generator) · [↗ GitHub](https://github.com/SamurAIGPT/ai-meme-generator) | AI meme & viral short video generator with multiple models | Imgflip Pro ($10/mo), Supermeme ($19/mo) | [Demo](https://ai-meme-generator.vercel.app/) |
 | [Old Photo Restore](./image_generation/old-photo-restore) · [↗ GitHub](https://github.com/SamurAIGPT/old-photo-restore) | Colorize, denoise, and repair damaged vintage photos | Remini (est. $100M+ revenue), MyHeritage ($50/yr) | [Demo](https://old-photo-restore.vercel.app/) |
 | [ClearMark AI](./image_generation/clearmark-ai) · [↗ GitHub](https://github.com/SamurAIGPT/clearmark-ai) | Remove watermarks, logos, and text overlays using GPT Image 2 | Watermarkremover.io ($9.99/mo), HitPaw ($20/mo) | [Demo](https://clearmark-ai.vercel.app/) |
+| [Seedream 5 Pro API](https://github.com/Anil-matcha/Seedream-5-Pro-API) | Python wrapper for ByteDance Seedream 5.0 Pro — 4K text-to-image, editing, typography | fal.ai, Replicate (per-image billing) | — |
+| [awesome-ai-image-models](https://github.com/Anil-matcha/awesome-ai-image-models) | Up-to-date comparison of AI image models — which model, via which API, at what price | Incumbent link-dump lists | — |
+| [Awesome GPT-Image-2 API Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) | Curated GPT-Image-2 prompts — portraits, posters, UI mockups, character sheets | Prompt marketplaces | — |
 
 ---
 
@@ -176,6 +182,19 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [AI B-Roll Generator](https://github.com/Anil-matcha/AI-B-roll) | Auto-generate relevant B-roll footage from scripts or transcripts | Storyblocks ($15/mo), Artlist ($16/mo) | — |
 | [Open AI UGC](./video_generation/Open-AI-UGC) · [↗ GitHub](https://github.com/Anil-matcha/Open-AI-UGC) | Generate AI UGC-style video ads with virtual creators | Arcads ($99–$299/mo), MakeUGC ($49/mo) | — |
 | [Vox AI Motion Graphics Generator](https://github.com/Anil-matcha/vox-ai-motion-graphics-generator) | Turn any topic into a Vox-style paper-collage explainer video — script, keyframes, motion, voice-over, music & captions | Vox editorial studios, Motion designers ($50–$150/hr) | — |
+| [Text-To-Video-AI](https://github.com/SamurAIGPT/Text-To-Video-AI) | Generate full videos from a text prompt — script, stock footage, voice-over, captions | Pika ($10/mo), InVideo AI ($20/mo) | — |
+| [AI Faceless Video Generator](https://github.com/SamurAIGPT/AI-Faceless-Video-Generator) | Generate script, voice, and a talking face entirely with AI | HeyGen ($29/mo), Synthesia ($22/mo) | — |
+| [Clip Anything](https://github.com/SamurAIGPT/Clip-Anything) | Clip any moment from any video with a text prompt | Opus Clip ($15–$49/mo), Vidyo.ai ($20/mo) | — |
+| [AI Influencer Generator](https://github.com/SamurAIGPT/AI-Influencer-Generator) | Create and customize a consistent AI influencer / virtual creator | Glambase, Fanvue, Deepagency ($19/mo) | — |
+| [AI VFX](https://github.com/SamurAIGPT/AI-VFX) | Add AI-powered visual effects to videos | Runway ($12–$76/mo), Kaiber ($5–$30/mo) | — |
+| [Open AI Video Editor](https://github.com/Anil-matcha/Open-AI-Video-Editor) | Cross-platform AI-native video editor with an agent-controlled timeline | Descript ($12/mo), Runway ($12/mo) | — |
+| [Seedance 2.5 API](https://github.com/SamurAIGPT/Seedance-2.5-API) | Python wrapper for ByteDance Seedance 2.5 — T2V/I2V, native 4K, consistent characters | fal.ai, Replicate (per-second billing) | — |
+| [Seedance 2 API](https://github.com/Anil-matcha/Seedance-2-API) | Python wrapper for Seedance 2.0 / 2.5 / Mini — T2V, I2V, 1080p | fal.ai, Replicate (per-second billing) | — |
+| [Sora 2 API](https://github.com/SamurAIGPT/Sora-2-api) | API access to OpenAI Sora 2 for text-to-video | OpenAI Sora ($20/mo), Kling API | — |
+| [Veo 4 API](https://github.com/Anil-matcha/Veo-4-API) | Python wrapper for Google Veo 4 — native 4K video with integrated audio | Google Veo (native), fal.ai | — |
+| [Hailuo 3.0 API](https://github.com/Anil-matcha/hailuo-3.0-api) | Docs & API hub for MiniMax Hailuo 3.0 4K video model | fal.ai, Replicate | — |
+| [Seedance Watermark Remover](https://github.com/SamurAIGPT/seedance-2.0-watermark-remover) | Remove the Seedance 2.0 (AI生成) watermark from videos — no GPU required | Manual editing, paid removers | — |
+| [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) | Up-to-date comparison of AI video models — which model, via which API, at what price & speed | Incumbent link-dump lists | — |
 
 ---
 
@@ -228,6 +247,7 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [AI Pet Portrait](./portrait_avatar/ai-pet-portrait) · [↗ GitHub](https://github.com/SamurAIGPT/ai-pet-portrait) | Transform pet photos into paintings, royal portraits, and art | Portrait My Pet ($35/pack), PetPainter ($15/pack) | [Demo](https://ai-pet-portrait.vercel.app/) |
 | [AI Travel Studio](./ai_agents/ai-travel-studio) · [↗ GitHub](https://github.com/SamurAIGPT/ai-travel-studio) | Place yourself into iconic travel destinations worldwide | Teleport AI ($9.99/mo), AI Photo ($5/pack) | [Demo](https://ai-travel-studio.vercel.app/) |
 | [AI Fitness Simulator](./portrait_avatar/ai-fitness-body-simulator) · [↗ GitHub](https://github.com/SamurAIGPT/ai-fitness-body-simulator) | Visualize body transformation goals with AI | BodyApp AI ($10/mo), Fitness AI ($10/mo) | [Demo](https://ai-fitness-body-simulator.vercel.app/) |
+| [AI Group Photo](https://github.com/SamurAIGPT/ai-group-photo) | Composite people into a natural-looking AI group photo | Photoshop ($23/mo), group-photo apps | — |
 
 ---
 
@@ -243,6 +263,8 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [AI Resume Builder](./writing_content/ai-resume-builder) · [↗ GitHub](https://github.com/SamurAIGPT/ai-resume-builder) | ATS-optimized resumes with PDF/Word export | Teal ($29/mo), Kickresume ($19/mo), Rezi ($29/mo) | [Demo](https://ai-resume-builder.vercel.app/) |
 | [Mail-Wise](./writing_content/mail-wise) · [↗ GitHub](https://github.com/SamurAIGPT/mail-wise) | AI cold email and business email composer | Lavender AI ($29/mo), Reply.io ($60/mo) | [Demo](https://mail-wise-khaki.vercel.app/) |
 | [GEO Checker](./writing_content/geo-checker) · [↗ GitHub](https://github.com/SamurAIGPT/geo-checker) | Audit landing page AI search visibility for ChatGPT, Perplexity, Gemini | SEMrush ($120/mo), Surfer SEO ($69/mo) | [Demo](https://geo-checker.vercel.app/) |
+| [Open Larryloop](https://github.com/Anil-matcha/open-larryloop) | Generate and publish viral TikTok/Instagram carousel slides from any website | Larryloop, PostNitro ($9/mo) | — |
+| [Open Pomelli](https://github.com/SamurAIGPT/Open-Pomelli) | Open-source Google Pomelli — generate on-brand marketing campaigns from a website | Pomelli (Google), AdCreative ($21/mo) | — |
 
 ---
 
@@ -256,6 +278,7 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [CardAI Creator](./portrait_avatar/ai-business-card) · [↗ GitHub](https://github.com/SamurAIGPT/ai-business-card) | Digital business cards with embedded AI visitor chatbot | Popl ($8/mo), HiHello ($6/mo) | [Demo](https://ai-business-card-ten.vercel.app/) |
 | [AI Character Studio](./portrait_avatar/ai-character-studio) · [↗ GitHub](https://github.com/SamurAIGPT/ai-character-studio) | Generate AI character portraits and roleplay chat | Character.AI (est. $1B ARR), Replika ($70/yr) | [Demo](https://ai-character-studio-beta.vercel.app/) |
 | [Open Character AI](./portrait_avatar/open-character-ai) · [↗ GitHub](https://github.com/Anil-matcha/open-character-ai) | Self-hosted character roleplay chatbot — custom personas with per-chat LLM tuning | Character.AI (est. $1B ARR), Replika ($70/yr) | — |
+| [LLM Wiki Agent](https://github.com/SamurAIGPT/llm-wiki-agent) | A personal knowledge base that builds and maintains itself — drop in sources, get an interlinked wiki | Notion AI ($10/mo), Mem ($10/mo) | — |
 
 ---
 
@@ -280,6 +303,22 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [ComfyUI Nodes](https://github.com/SamurAIGPT/muapi-comfyui) | 100+ model nodes for ComfyUI image/video pipelines | Clone into `custom_nodes/` |
 | [CLI](https://github.com/SamurAIGPT/muapi-cli) | Generate images, videos & audio from the terminal | `npm install -g muapi-cli` |
 | [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | AI agent skills for Claude Code, Cursor, Gemini CLI | See repo for install |
+| [ComfyUI · Veo 3.1](https://github.com/Anil-matcha/veo3.1-comfyui) | Veo 3.1 nodes — text/image/reference-to-video, extend, 4K upscale | Clone into `custom_nodes/` |
+| [ComfyUI · Midjourney](https://github.com/Anil-matcha/midjourney-comfyui) | Midjourney V7/V8 & Niji nodes with reference-image support | Clone into `custom_nodes/` |
+| [ComfyUI · Seedance 2](https://github.com/Anil-matcha/seedance2-comfyui) | Seedance 2.0 / Mini nodes — T2V, I2V, character-consistent, extend | Clone into `custom_nodes/` |
+| [ComfyUI · GPT-Image-2](https://github.com/Anil-matcha/gpt-image-2-comfyui) | GPT-Image-2 nodes — text-to-image and image-to-image | Clone into `custom_nodes/` |
+| [ComfyUI · AI Clipping](https://github.com/Anil-matcha/ai-clipping-comfyui) | Turn long videos into ranked viral shorts inside ComfyUI | Clone into `custom_nodes/` |
+| [ComfyUI · Gemini Omni](https://github.com/Anil-matcha/gemini-omni-comfyui) | Gemini Omni nodes — text/image-to-video and video edit | Clone into `custom_nodes/` |
+| [ComfyUI · Suno](https://github.com/Anil-matcha/suno-comfyui) | Suno nodes — generate, remix, extend AI music | Clone into `custom_nodes/` |
+| [ComfyUI · HappyHorse](https://github.com/Anil-matcha/happyhorse-comfyui) | HappyHorse 1.0 nodes — 1080p video with integrated audio | Clone into `custom_nodes/` |
+| [n8n · Seedance 2](https://github.com/Anil-matcha/n8n-nodes-seedance2) | Seedance 2.0 / Mini T2V & I2V nodes for n8n workflows | Search "seedance" in n8n community nodes |
+| [Python SDK](https://github.com/SamurAIGPT/muapi-python) | Python SDK for image/video/audio generation | `pip install muapi` |
+| [JavaScript SDK](https://github.com/SamurAIGPT/muapi-javascript) | JavaScript/TypeScript SDK for generative media | `npm install muapi` |
+| [Vercel AI SDK Provider](https://github.com/SamurAIGPT/muapi-ai-sdk-provider) | Image & video provider for the Vercel AI SDK (50+ models) | `npm install muapi-ai-sdk-provider` |
+| [Dify Plugin](https://github.com/SamurAIGPT/dify-plugin-muapi) | Access 100+ generative models inside Dify | Install from Dify marketplace |
+| [Blender Extension](https://github.com/SamurAIGPT/muapi-blender-extension) | Generate AI media directly inside Blender | Install from repo |
+| [Adobe Plugin](https://github.com/SamurAIGPT/muapiapp-adobe-plugin) | Generate AI media inside Adobe apps | Install from repo |
+| [WordPress Plugin](https://github.com/SamurAIGPT/muapi-for-wordpress) | Generate AI images & video from WordPress | Install from repo |
 
 ---
 
