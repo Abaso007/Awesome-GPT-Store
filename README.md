@@ -160,9 +160,6 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [AI Meme Studio](./image_generation/ai-meme-generator) · [↗ GitHub](https://github.com/SamurAIGPT/ai-meme-generator) | AI meme & viral short video generator with multiple models | Imgflip Pro ($10/mo), Supermeme ($19/mo) | [Demo](https://ai-meme-generator.vercel.app/) |
 | [Old Photo Restore](./image_generation/old-photo-restore) · [↗ GitHub](https://github.com/SamurAIGPT/old-photo-restore) | Colorize, denoise, and repair damaged vintage photos | Remini (est. $100M+ revenue), MyHeritage ($50/yr) | [Demo](https://old-photo-restore.vercel.app/) |
 | [ClearMark AI](./image_generation/clearmark-ai) · [↗ GitHub](https://github.com/SamurAIGPT/clearmark-ai) | Remove watermarks, logos, and text overlays using GPT Image 2 | Watermarkremover.io ($9.99/mo), HitPaw ($20/mo) | [Demo](https://clearmark-ai.vercel.app/) |
-| [Seedream 5 Pro API](https://github.com/Anil-matcha/Seedream-5-Pro-API) | Python wrapper for ByteDance Seedream 5.0 Pro — 4K text-to-image, editing, typography | fal.ai, Replicate (per-image billing) | — |
-| [awesome-ai-image-models](https://github.com/Anil-matcha/awesome-ai-image-models) | Up-to-date comparison of AI image models — which model, via which API, at what price | Incumbent link-dump lists | — |
-| [Awesome GPT-Image-2 API Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) | Curated GPT-Image-2 prompts — portraits, posters, UI mockups, character sheets | Prompt marketplaces | — |
 
 ---
 
@@ -188,13 +185,7 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [AI Influencer Generator](https://github.com/SamurAIGPT/AI-Influencer-Generator) | Create and customize a consistent AI influencer / virtual creator | Glambase, Fanvue, Deepagency ($19/mo) | — |
 | [AI VFX](https://github.com/SamurAIGPT/AI-VFX) | Add AI-powered visual effects to videos | Runway ($12–$76/mo), Kaiber ($5–$30/mo) | — |
 | [Open AI Video Editor](https://github.com/Anil-matcha/Open-AI-Video-Editor) | Cross-platform AI-native video editor with an agent-controlled timeline | Descript ($12/mo), Runway ($12/mo) | — |
-| [Seedance 2.5 API](https://github.com/SamurAIGPT/Seedance-2.5-API) | Python wrapper for ByteDance Seedance 2.5 — T2V/I2V, native 4K, consistent characters | fal.ai, Replicate (per-second billing) | — |
-| [Seedance 2 API](https://github.com/Anil-matcha/Seedance-2-API) | Python wrapper for Seedance 2.0 / 2.5 / Mini — T2V, I2V, 1080p | fal.ai, Replicate (per-second billing) | — |
-| [Sora 2 API](https://github.com/SamurAIGPT/Sora-2-api) | API access to OpenAI Sora 2 for text-to-video | OpenAI Sora ($20/mo), Kling API | — |
-| [Veo 4 API](https://github.com/Anil-matcha/Veo-4-API) | Python wrapper for Google Veo 4 — native 4K video with integrated audio | Google Veo (native), fal.ai | — |
-| [Hailuo 3.0 API](https://github.com/Anil-matcha/hailuo-3.0-api) | Docs & API hub for MiniMax Hailuo 3.0 4K video model | fal.ai, Replicate | — |
 | [Seedance Watermark Remover](https://github.com/SamurAIGPT/seedance-2.0-watermark-remover) | Remove the Seedance 2.0 (AI生成) watermark from videos — no GPU required | Manual editing, paid removers | — |
-| [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) | Up-to-date comparison of AI video models — which model, via which API, at what price & speed | Incumbent link-dump lists | — |
 
 ---
 
