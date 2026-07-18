@@ -294,22 +294,6 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [ComfyUI Nodes](https://github.com/SamurAIGPT/muapi-comfyui) | 100+ model nodes for ComfyUI image/video pipelines | Clone into `custom_nodes/` |
 | [CLI](https://github.com/SamurAIGPT/muapi-cli) | Generate images, videos & audio from the terminal | `npm install -g muapi-cli` |
 | [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | AI agent skills for Claude Code, Cursor, Gemini CLI | See repo for install |
-| [ComfyUI · Veo 3.1](https://github.com/Anil-matcha/veo3.1-comfyui) | Veo 3.1 nodes — text/image/reference-to-video, extend, 4K upscale | Clone into `custom_nodes/` |
-| [ComfyUI · Midjourney](https://github.com/Anil-matcha/midjourney-comfyui) | Midjourney V7/V8 & Niji nodes with reference-image support | Clone into `custom_nodes/` |
-| [ComfyUI · Seedance 2](https://github.com/Anil-matcha/seedance2-comfyui) | Seedance 2.0 / Mini nodes — T2V, I2V, character-consistent, extend | Clone into `custom_nodes/` |
-| [ComfyUI · GPT-Image-2](https://github.com/Anil-matcha/gpt-image-2-comfyui) | GPT-Image-2 nodes — text-to-image and image-to-image | Clone into `custom_nodes/` |
-| [ComfyUI · AI Clipping](https://github.com/Anil-matcha/ai-clipping-comfyui) | Turn long videos into ranked viral shorts inside ComfyUI | Clone into `custom_nodes/` |
-| [ComfyUI · Gemini Omni](https://github.com/Anil-matcha/gemini-omni-comfyui) | Gemini Omni nodes — text/image-to-video and video edit | Clone into `custom_nodes/` |
-| [ComfyUI · Suno](https://github.com/Anil-matcha/suno-comfyui) | Suno nodes — generate, remix, extend AI music | Clone into `custom_nodes/` |
-| [ComfyUI · HappyHorse](https://github.com/Anil-matcha/happyhorse-comfyui) | HappyHorse 1.0 nodes — 1080p video with integrated audio | Clone into `custom_nodes/` |
-| [n8n · Seedance 2](https://github.com/Anil-matcha/n8n-nodes-seedance2) | Seedance 2.0 / Mini T2V & I2V nodes for n8n workflows | Search "seedance" in n8n community nodes |
-| [Python SDK](https://github.com/SamurAIGPT/muapi-python) | Python SDK for image/video/audio generation | `pip install muapi` |
-| [JavaScript SDK](https://github.com/SamurAIGPT/muapi-javascript) | JavaScript/TypeScript SDK for generative media | `npm install muapi` |
-| [Vercel AI SDK Provider](https://github.com/SamurAIGPT/muapi-ai-sdk-provider) | Image & video provider for the Vercel AI SDK (50+ models) | `npm install muapi-ai-sdk-provider` |
-| [Dify Plugin](https://github.com/SamurAIGPT/dify-plugin-muapi) | Access 100+ generative models inside Dify | Install from Dify marketplace |
-| [Blender Extension](https://github.com/SamurAIGPT/muapi-blender-extension) | Generate AI media directly inside Blender | Install from repo |
-| [Adobe Plugin](https://github.com/SamurAIGPT/muapiapp-adobe-plugin) | Generate AI media inside Adobe apps | Install from repo |
-| [WordPress Plugin](https://github.com/SamurAIGPT/muapi-for-wordpress) | Generate AI images & video from WordPress | Install from repo |
 
 ---
 
