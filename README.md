@@ -37,7 +37,6 @@ Each app is a fully working product you can launch under your own name this week
 <a href="#-beauty--fashion-ai"><kbd> &nbsp; 💄 Beauty &amp; Fashion &nbsp; </kbd></a>
 <a href="#-e-commerce--product-photography"><kbd> &nbsp; 🛒 E-commerce &nbsp; </kbd></a>
 <a href="#-writing--content"><kbd> &nbsp; ✍️ Writing &nbsp; </kbd></a>
-<a href="#-platform-integrations"><kbd> &nbsp; 🔧 Integrations &nbsp; </kbd></a>
 </p>
 
 </div>
@@ -129,7 +128,6 @@ Or deploy instantly with the **Deploy to Vercel** button in each template's READ
 - [✍️ Writing & Content](#️-writing--content)
 - [🤖 AI Agents & Chatbots](#-ai-agents--chatbots)
 - [🎵 Audio & Voice](#-audio--voice)
-- [🔧 Platform Integrations](#-platform-integrations)
 
 ---
 
@@ -169,7 +167,6 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 
 | Template | Description | Competing With | Demo |
 |---|---|---|---|
-| [awesome-seedance-2.5-api-prompts](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts) · [↗ GitHub](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts) | Curated Seedance 2.5 API guide, prompts, camera controls, and cinematic video generation examples | Guides on fal.ai, Replicate docs | — |
 | [Seedance 2 Generator](./video_generation/seedance-2-generator) · [↗ GitHub](https://github.com/SamurAIGPT/seedance-2-generator) | Text-to-video and multi-image reference video SaaS | Runway ($12–$76/mo), Kling ($10–$36/mo) | [Demo](https://seedance-2-generator.vercel.app/) |
 | [Veo Video Generator](./video_generation/veo4-video-generator) · [↗ GitHub](https://github.com/SamurAIGPT/veo4-video-generator) | Text-to-video and image-to-video with Google Veo | Sora ($20/mo), Runway ($76/mo) | [Demo](https://veo4-video-generator.vercel.app/) |
 | [AI Kissing Video Generator](./video_generation/ai-kissing-video-generator) · [↗ GitHub](https://github.com/SamurAIGPT/ai-kissing-video-generator) | Merge two portraits into a romantic AI video | Reface ($4.99/mo), novelty apps charging $2–5/video | [Demo](https://ai-kissing-video-generator-amber.vercel.app/) |
@@ -283,17 +280,6 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [AI Voice Agent](./ai_agents/AI-Voice-Agent) · [↗ GitHub](https://github.com/Anil-matcha/AI-Voice-Agent) | Self-hosted AI voice agent with speech-to-speech conversation | Bland.ai ($0.09/min), Vapi ($0.05/min), Retell AI ($0.07/min) | — |
 
 ---
-
-## 🔧 Platform Integrations
-
-| Integration | Description | Install |
-|---|---|---|
-| [Claude Code Plugin](https://github.com/SamurAIGPT/muapi-claude-code) | Generate images, videos & audio directly in Claude Code | `claude mcp add muapi -- npx -y muapi-claude-code` |
-| [MCP Server](https://github.com/SamurAIGPT/muapi-mcp-server) | Hosted MCP server for Claude, Cursor, Windsurf & more | `claude mcp add --transport http muapi https://api.muapi.ai/mcp` |
-| [n8n Nodes](https://github.com/SamurAIGPT/n8n-nodes-muapi) | 60+ AI model nodes for n8n automation workflows | Search "muapi" in n8n community nodes |
-| [ComfyUI Nodes](https://github.com/SamurAIGPT/muapi-comfyui) | 100+ model nodes for ComfyUI image/video pipelines | Clone into `custom_nodes/` |
-| [CLI](https://github.com/SamurAIGPT/muapi-cli) | Generate images, videos & audio from the terminal | `npm install -g muapi-cli` |
-| [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | AI agent skills for Claude Code, Cursor, Gemini CLI | See repo for install |
 
 ---
 
