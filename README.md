@@ -39,6 +39,16 @@ Each app is a fully working product you can launch under your own name this week
 <a href="#-writing--content"><kbd> &nbsp; ✍️ Writing &nbsp; </kbd></a>
 </p>
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=X_kbyQyhgmI">
+    <img src="assets/video-17-thumbnail.png" alt="Watch: 50 Free AI Apps You Can Clone and Sell" width="720">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=X_kbyQyhgmI"><b>📺 Watch: 50 Free AI Apps You Can Clone and Sell (Free Alternatives to Paid AI Tools) →</b></a>
+</p>
+
 </div>
 
 ---
