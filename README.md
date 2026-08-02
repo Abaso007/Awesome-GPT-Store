@@ -99,6 +99,8 @@ AI headshot tools charge $29–$49 per pack. Virtual staging tools charge $29 pe
 
 > 🍌 **Running Claude Fable 5?** [awesome-claude-fable-5](https://github.com/Anil-matcha/awesome-claude-fable-5) — 60 curated use cases + **20% off** via [MuAPI](https://muapi.ai/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-generative-ai-apps).
 
+> 🧩 **Powering an app?** Browse the [MuAPI model catalog](https://muapi.ai/docs/models?utm_source=github&utm_medium=readme&utm_campaign=awesome-generative-ai-apps) or follow the [API quick start](https://muapi.ai/docs/quick-start?utm_source=github&utm_medium=readme&utm_campaign=awesome-generative-ai-apps) to connect image, video, audio, and text generation.
+
 ---
 
 ## 🚀 Quick Start
@@ -318,4 +320,3 @@ Base template (auth + billing + webhooks, no AI logic):
 ## 📄 License
 
 MIT Licensed. Fork it, ship it, sell it.
-
