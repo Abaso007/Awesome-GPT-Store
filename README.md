@@ -127,11 +127,14 @@ Or deploy instantly with the **Deploy to Vercel** button in each template's READ
 
 | Template | What it does | Live Demo |
 |---|---|---|
-| [🎬 Vox AI Motion Graphics Generator](https://github.com/Anil-matcha/vox-ai-motion-graphics-generator) | New — turn any topic into a Vox-style paper-collage explainer video, end to end | [GitHub](https://github.com/Anil-matcha/vox-ai-motion-graphics-generator) |
-| [🧰 Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | Trending (3.8k★) — multi-modal image/video/audio skills for Claude Code, Cursor & Gemini CLI | [GitHub](https://github.com/SamurAIGPT/Generative-Media-Skills) |
-| [📚 LLM Wiki Agent](https://github.com/SamurAIGPT/llm-wiki-agent) | Trending (3.2k★) — a personal knowledge base that builds and maintains itself | [GitHub](https://github.com/SamurAIGPT/llm-wiki-agent) |
-| [🎥 Text-To-Video AI](https://github.com/SamurAIGPT/Text-To-Video-AI) | Popular (780★) — generate full videos from a single text prompt | [GitHub](https://github.com/SamurAIGPT/Text-To-Video-AI) |
-| [🧑‍🎤 AI Influencer Generator](https://github.com/SamurAIGPT/AI-Influencer-Generator) | Create and customize your own consistent AI influencer | [GitHub](https://github.com/SamurAIGPT/AI-Influencer-Generator) |
+| [🎬 Zack D Films AI Video Generator](https://github.com/Anil-matcha/zack-d-films-ai-video-generator) | New — turn one topic into a finished 3D animated explainer short with consistent characters, Veo motion, narration, and captions | [GitHub](https://github.com/Anil-matcha/zack-d-films-ai-video-generator) |
+| [🤝 Open AI Agents Hub](https://github.com/Anil-matcha/open-ai-agents-hub) | Updated — self-hosted library and builder for chat, image, video, and audio agents | [GitHub](https://github.com/Anil-matcha/open-ai-agents-hub) |
+| [💬 Open Claude Tag](https://github.com/Anil-matcha/open-claude-tag) | New — self-hostable Slack AI teammate with shared channel memory, skills, and multi-LLM support | [GitHub](https://github.com/Anil-matcha/open-claude-tag) |
+| [🧠 Open Grok Bot](https://github.com/Anil-matcha/open-grok-bot) | New — local-first workspace for bot personas, multimodal chat, voice dictation, governed computer use, and connectors via MUAPI | [GitHub](https://github.com/Anil-matcha/open-grok-bot) |
+| [📣 Open Pomelli](https://github.com/SamurAIGPT/Open-Pomelli) | Trending (99★) — turn a website into editable brand DNA, campaign concepts, product photography, and short-form videos | [GitHub](https://github.com/SamurAIGPT/Open-Pomelli) |
+| [✂️ AI YouTube Shorts Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator) | Popular (4.6k★) — automatically turn long-form videos into viral 9:16 shorts | [GitHub](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator) |
+| [🧰 Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | Trending (4.1k★) — multi-modal image/video/audio skills for Claude Code, Cursor & Gemini CLI | [GitHub](https://github.com/SamurAIGPT/Generative-Media-Skills) |
+| [📚 LLM Wiki Agent](https://github.com/SamurAIGPT/llm-wiki-agent) | Trending (3.4k★) — a personal knowledge base that builds and maintains itself | [GitHub](https://github.com/SamurAIGPT/llm-wiki-agent) |
 
 ---
 
@@ -160,6 +163,7 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [Free AI Social Media Scheduler](./platforms/Free-AI-Social-Media-Scheduler) · [↗ GitHub](https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler) | Self-hostable AI social media scheduler with built-in content generation | Buffer ($18/mo), Hootsuite ($99/mo), Postiz ($42/mo) | ⭐ 453 |
 | [Open AI Design Agent](./platforms/Open-AI-Design-Agent) · [↗ GitHub](https://github.com/Anil-matcha/Open-AI-Design-Agent) | Autonomous multi-step AI design agent for creatives, brand kits, ad creatives | Lovart AI ($30/mo), Galileo AI ($50/mo) | ⭐ 807 |
 | [Open Poe AI](./platforms/Open-Poe-AI) · [↗ GitHub](https://github.com/Anil-matcha/Open-Poe-AI) | Self-hosted multi-model AI chat — GPT, Claude, Gemini, Llama, bring your own keys | Poe AI ($20/mo), ChatGPT Plus ($20/mo) | ⭐ 241 |
+| [Open AI Agents Hub](https://github.com/Anil-matcha/open-ai-agents-hub) | Self-hosted platform for reusable chat, image, video, and audio agents with an agent library and builder | Dify, Botpress, AnythingLLM | ⭐ 14 |
 | [Vibe Workflow](https://github.com/SamurAIGPT/Vibe-Workflow) | Node-based AI workflow builder for generative image & video pipelines | Weavy, Krea Nodes, FloraFauna AI | ⭐ 507 |
 | [PixelRelay](https://github.com/SamurAIGPT/pixelrelay) | Self-hosted unified API for generative media — one webhook endpoint across Fal, Replicate, with failover | fal.ai, Replicate, Together | ⭐ 14 |
 
@@ -195,6 +199,7 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [AI B-Roll Generator](https://github.com/Anil-matcha/AI-B-roll) | Auto-generate relevant B-roll footage from scripts or transcripts | Storyblocks ($15/mo), Artlist ($16/mo) | — |
 | [Open AI UGC](./video_generation/Open-AI-UGC) · [↗ GitHub](https://github.com/Anil-matcha/Open-AI-UGC) | Generate AI UGC-style video ads with virtual creators | Arcads ($99–$299/mo), MakeUGC ($49/mo) | — |
 | [Vox AI Motion Graphics Generator](https://github.com/Anil-matcha/vox-ai-motion-graphics-generator) | Turn any topic into a Vox-style paper-collage explainer video — script, keyframes, motion, voice-over, music & captions | Vox editorial studios, Motion designers ($50–$150/hr) | — |
+| [Zack D Films AI Video Generator](https://github.com/Anil-matcha/zack-d-films-ai-video-generator) | Turn one topic into a finished 3D animated explainer short with consistent characters, Veo motion, narration, and captions | CapCut, InVideo AI, motion-design studios | — |
 | [Text-To-Video-AI](https://github.com/SamurAIGPT/Text-To-Video-AI) | Generate full videos from a text prompt — script, stock footage, voice-over, captions | Pika ($10/mo), InVideo AI ($20/mo) | — |
 | [AI Faceless Video Generator](https://github.com/SamurAIGPT/AI-Faceless-Video-Generator) | Generate script, voice, and a talking face entirely with AI | HeyGen ($29/mo), Synthesia ($22/mo) | — |
 | [Clip Anything](https://github.com/SamurAIGPT/Clip-Anything) | Clip any moment from any video with a text prompt | Opus Clip ($15–$49/mo), Vidyo.ai ($20/mo) | — |
@@ -271,7 +276,7 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [Mail-Wise](./writing_content/mail-wise) · [↗ GitHub](https://github.com/SamurAIGPT/mail-wise) | AI cold email and business email composer | Lavender AI ($29/mo), Reply.io ($60/mo) | [Demo](https://mail-wise-khaki.vercel.app/) |
 | [GEO Checker](./writing_content/geo-checker) · [↗ GitHub](https://github.com/SamurAIGPT/geo-checker) | Audit landing page AI search visibility for ChatGPT, Perplexity, Gemini | SEMrush ($120/mo), Surfer SEO ($69/mo) | [Demo](https://geo-checker.vercel.app/) |
 | [Open Larryloop](https://github.com/Anil-matcha/open-larryloop) | Generate and publish viral TikTok/Instagram carousel slides from any website | Larryloop, PostNitro ($9/mo) | — |
-| [Open Pomelli](https://github.com/SamurAIGPT/Open-Pomelli) | Open-source Google Pomelli — generate on-brand marketing campaigns from a website | Pomelli (Google), AdCreative ($21/mo) | — |
+| [Open Pomelli](https://github.com/SamurAIGPT/Open-Pomelli) | Turn a website into editable brand DNA, on-brand campaign concepts, product photography, and short-form videos | Pomelli (Google), AdCreative ($21/mo) | — |
 
 ---
 
@@ -285,6 +290,8 @@ Full-stack platforms you can self-host or white-label. Leonardo AI charges $12�
 | [CardAI Creator](./portrait_avatar/ai-business-card) · [↗ GitHub](https://github.com/SamurAIGPT/ai-business-card) | Digital business cards with embedded AI visitor chatbot | Popl ($8/mo), HiHello ($6/mo) | [Demo](https://ai-business-card-ten.vercel.app/) |
 | [AI Character Studio](./portrait_avatar/ai-character-studio) · [↗ GitHub](https://github.com/SamurAIGPT/ai-character-studio) | Generate AI character portraits and roleplay chat | Character.AI (est. $1B ARR), Replika ($70/yr) | [Demo](https://ai-character-studio-beta.vercel.app/) |
 | [Open Character AI](./portrait_avatar/open-character-ai) · [↗ GitHub](https://github.com/Anil-matcha/open-character-ai) | Self-hosted character roleplay chatbot — custom personas with per-chat LLM tuning | Character.AI (est. $1B ARR), Replika ($70/yr) | — |
+| [Open Claude Tag](https://github.com/Anil-matcha/open-claude-tag) | Self-hostable, channel-native Slack AI teammate with shared channel memory, skill creation, and multi-LLM support | Claude Tag, Slack AI, Botpress | — |
+| [Open Grok Bot](https://github.com/Anil-matcha/open-grok-bot) | Local-first AI workspace for bot personas, multimodal chat, voice dictation, governed computer use, and connectors over MUAPI | ChatGPT, Open WebUI, Claude Desktop | — |
 | [LLM Wiki Agent](https://github.com/SamurAIGPT/llm-wiki-agent) | A personal knowledge base that builds and maintains itself — drop in sources, get an interlinked wiki | Notion AI ($10/mo), Mem ($10/mo) | — |
 
 ---
