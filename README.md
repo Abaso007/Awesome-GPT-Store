@@ -60,6 +60,7 @@ Each app is a fully working product you can launch under your own name this week
 - [ai-creator-academy](https://github.com/Anil-matcha/ai-creator-academy) — free curriculum teaching creators, freelancers, and agencies how to monetize generative AI — the "how to sell" companion to these "what to clone" apps
 - [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Free open-source studio for 200+ AI image & video models
 - [awesome-gpt-6-astra](https://github.com/Anil-matcha/awesome-gpt-6-astra) — Evidence-backed GPT-6 Astra workflows, Responses API patterns, coding-agent prompts, evaluations, and safety notes — the model-focused companion to these application templates
+- [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) — TypeSafe Jev patterns for routing, guardrails, retrieval, and verification inside AI applications
 
 ---
 
